@@ -1,0 +1,15 @@
+.introduction_container {
+    display: flex;
+    align-items: flex-start; /* 顶部对齐，可改成 center 居中对齐 */
+    gap: 20px; /* 图片和文字之间的间距 */
+}
+
+.introduction_container img {
+    width: 200px; /* 控制图片大小 */
+    height: auto;
+    object-fit: cover; /* 保持比例裁剪图片 */
+}
+
+.introduction_text {
+    flex: 1; /* 占据剩余空间 */
+}
